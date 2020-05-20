@@ -83,16 +83,10 @@
 
 	
 <?php
-$servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "mydb";
-
-
-
+require 'db1.php';
 
 // Create connection
-$con=mysqli_connect($servername, $username, $password,$dbname);
+$con=mysqli_connect($host, $user, $password);
 if(!$con)
 {
 echo"Not connect to server";
@@ -100,7 +94,7 @@ echo"Not connect to server";
 
 
 
-$condb=mysqli_select_db($con,$dbname);
+$condb=mysqli_select_db($con,$db);
 
 if(isset($_GET['logout']))
 {

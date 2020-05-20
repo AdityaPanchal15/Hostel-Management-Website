@@ -127,14 +127,7 @@ User_Id: <input name="user" type="text" style="margin-left:60px;" size="30"  ></
 
 
 <?php
-
-
-$host='127.0.0.1';
-$user='root';
-$password='';
-
-$db='mydb';
-
+require 'db1.php';
 @mysql_connect($host,$user,$password);
 
 

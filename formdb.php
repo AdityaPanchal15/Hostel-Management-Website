@@ -1,20 +1,13 @@
 <?php
-$servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "mydb";
-
-
-
-
+require 'db1.php';
 // Create connection
-$con=mysqli_connect($servername, $username, $password);
+$con=mysqli_connect($host, $user, $password);
 if(!$con)
 {
 echo"Not connect to server";
 }
  
-if(!mysqli_select_db($con,$dbname))
+if(!mysqli_select_db($con,$db))
 {
 	echo"db not selected";
 }
