@@ -58,7 +58,7 @@ $people4 = $statement4->fetchAll(PDO::FETCH_OBJ);
     </div>
     <div id="quickinfo" class="fl_right">
       <ul class="nospace inline">
-        <li><a href="fullform.html" target="_blank"><button class="btn"><strong>Book Now</strong></button></a></li>
+        <li><a href="fullform.html"><button class="btn"><strong>Book Now</strong></button></a></li>
        
       </ul>
     </div>
@@ -68,7 +68,7 @@ $people4 = $statement4->fetchAll(PDO::FETCH_OBJ);
     <!-- ################################################################################################ -->
     <ul class="clear">
       <li class="active"><a href="index.html">Home</a></li>
-      <li><a  href="form.html" target="_blank">ENQUIRY</a>
+      <li><a  href="form.html">ENQUIRY</a>
        
       </li>
      
@@ -88,7 +88,7 @@ $people4 = $statement4->fetchAll(PDO::FETCH_OBJ);
       </li>
       <li><a href="Contact Us.html">Contact Us</a></li>
       <li><a href="Aboutt Us.html">About Us</a></li>
-      <li><a href="index.html" target="_blank">LogOut</a></li>
+      <li><a href="index.html">LogOut</a></li>
       
     </ul> 
     <!-- ################################################################################################ -->

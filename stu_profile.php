@@ -57,7 +57,7 @@ input[type=submit]:hover {
     </div>
      <div id="quickinfo" class="fl_right">
       <ul class="nospace inline">
-        <li><a href="fullform.html" target="_blank"><button class="btn"><strong>Book Now</strong></button></a></li>
+        <li><a href="fullform.html"><button class="btn"><strong>Book Now</strong></button></a></li>
        
       </ul>
     </div>
@@ -67,7 +67,7 @@ input[type=submit]:hover {
     <!-- ################################################################################################ -->
     <ul class="clear">
       <li class="active"><a href="index.html">Home</a></li>
-      <li><a  href="form.html" target="_blank">ENQUIRY</a>
+      <li><a  href="form.html">ENQUIRY</a>
        
       </li>
      
@@ -87,7 +87,7 @@ input[type=submit]:hover {
       </li>
       <li><a href="Contact Us.html">Contact Us</a></li>
       <li><a href="aboutus.html">About Us</a></li>
-      <li><a href="stu_profile.php" target="_blank">Login</a></li>
+      <li><a href="stu_profile.php">Login</a></li>
       
     </ul> 
     <!-- ################################################################################################ -->
